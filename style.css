@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap');
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp6303668.jpg);
+    background-size: cover;
+    background-position:initial;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+text-align: center;
+color:#fff;
+font-style:italic;
+font-family:"Josefin Sans",sans-serif;
+}
+h2{
+text-align: center;
+color:#fff;
+font-style:inherit;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; 
+}
+h3{
+text-align: center;
+color:#fff;
+font-style:italic;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+label{
+    display:inline-block;
+    margin:auto;
+    margin-top: 200px;
+    margin-left: 42rem;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-style: oblique;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: none;
+    outline:none;
+    background-color:#fff;
+    color: red;
+    cursor:auto;
+}
+.button[type="button"]{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-style:unset;
+    font-family:"Poppins", fantasy;
+    border-radius: 8px;
+    border: none;
+    background-color:#fff;
+    color: red;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: #fff;
+    background: red;
+    transition: all 400ms linear;
+    cursor: pointer;
+
+}
+
+
+input{
+    display: inline-block;
+    width:auto;
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+a{
+    text-decoration:none;
+}
